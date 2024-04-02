@@ -28,9 +28,3 @@ function animateText() {
 }
 
 animateText();
-
-{
-  "rewrites": [
-    { "source": "/brilhohidratacao150", "destination": "index.html" }
-  ]
-}
