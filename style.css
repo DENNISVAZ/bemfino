@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(71, 68, 68);
+}
+
+.container {
+    text-align: center;
+    background: radial-gradient(circle, rgb(174,174,174) , white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+@font-face {
+  font-family: "Alodiya";
+  src: url("Alodiya.otf");
+  format("truetype");
+}
+
+
+#text {
+    font-family: 'Alodiya', sans-serif;
+    font-size: 15vw;
+    font-weight: 300; /* Estilo mais fino */
+}
