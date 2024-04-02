@@ -29,9 +29,8 @@ function animateText() {
 
 animateText();
 
-const url = window.location.href;
-
-if (url.includes("brilhohidratacao150")) {
-  window.location.href = "https://bemfino.com.br/";
+{
+  "rewrites": [
+    { "source": "/brilhohidratacao150", "destination": "index.html" }
+  ]
 }
-
